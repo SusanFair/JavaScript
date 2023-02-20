@@ -18,3 +18,22 @@ function buildTable(data) {
     });
 
 }
+
+
+// function handleClick using D3
+function handleClick() {
+    let date = d3.select("#datetime").property("value");
+    let filterData = tableData;
+    if (date {
+        filterData = filterData.filter(row => row.datetime === date);
+    })
+    
+    // Call buildTable function
+    buildTable(filteredData);
+}
+
+// Listen for click on webpage
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// Build table when page opens
+buildTable(tableData);
