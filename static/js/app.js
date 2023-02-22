@@ -28,12 +28,14 @@ function handleClick() {
         filterData = filterData.filter(row => row.datetime === date);
     })
     
-    // Call buildTable function
+    // Call buildTable function to rebuild table based on 
+    // filtered data
     buildTable(filteredData);
 }
 
 // Listen for click on webpage
 d3.selectAll("#filter-btn").on("click", handleClick);
 
-// Build table when page opens
+// Call buildTable function when page opens
 buildTable(tableData);
+
