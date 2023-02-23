@@ -6,6 +6,7 @@ var tbody = d3.select("tbody");
 
 // Build a function to create a table
 function buildTable(data) {
+    // First clear any existing date
     tbody.html("");
     // loop through each object and append a row and cells for each value in the roww
     data.forEach((dataRow) => {
@@ -13,20 +14,19 @@ function buildTable(data) {
         Object.values(dataRow).forEach((val) => {
             let cell = row.append("td");
             cell.text(val);
-        });
-        
+        }
+    );
     });
-
 }
 
 
 // function handleClick using D3
 function handleClick() {
     let date = d3.select("#datetime").property("value");
-    let filterData = tableData;
-    if (date {
-        filterData = filterData.filter(row => row.datetime === date);
-    })
+    let filteredData = tableData;
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    }
     
     // Call buildTable function to rebuild table based on 
     // filtered data
