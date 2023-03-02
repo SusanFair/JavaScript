@@ -32,7 +32,7 @@ function updateFilters() {
 
     // 4b. Save the value that was changed as a variable.
     let elementValue = changedElement.property("value");
-    console.log("This is elementValue");
+    console.log('This is elementValue $elementValue');
     console.log(elementValue);
 
     // 4c. Save the id of the filter that was changed as a variable.
