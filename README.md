@@ -1,7 +1,7 @@
-# JavaScript
+# JavaScript and UFOs
 
 
-## Overview of Project   Explain the purpose of this analysis.
+## Overview of Project  
 The JavaScript and UFOs project is designed to illustrate the use of a multi-filtered table rendering data retrieved fromthe the ???? website.  This table will allow mutiple variables to be entered in the filter such as City, State and even the Shape of the UFO!!!  This project was also an exploration into the power of JavaScript and HTML in making a user friendly, interactive webpage.  
 
 The UFO sightings data that was used for this project is from 2010 and reaches across the United States and Canada.
