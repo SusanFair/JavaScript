@@ -42,8 +42,8 @@ One drawback of the design is the overall layout of the page.  Putting the filte
 #### Recommendations:
 For further development opportunities I would recommend the following:
 
-* <b>Error or N/A message:  Currently when inforamtion is entered in a filter field that is not available in the data, there is no indicator of that the user has entered an invalide or unavailable entry.  There is no message saying that 'there are no results for this criteria', nor is there a 'no data found' message to reassure the user that the filter is working correctly but just didn't find any matching data.
+* **Error or N/A message:**  Currently when inforamtion is entered in a filter field that is not available in the data, there is no indicator of that the user has entered an invalide or unavailable entry.  There is no message saying that 'there are no results for this criteria', nor is there a 'no data found' message to reassure the user that the filter is working correctly but just didn't find any matching data.
 
-* <b>Text search: There is a lot of extra and interesting information in the Comments field.  It would be advantagous to add a text search for the Comments.   This would greatly increase the usability of the filters.  For example several times in the comments it is noted that there have been sightings on or near News Years.  A text search would allow a more free form search of this extra data.
+* **Text search:** There is a lot of extra and interesting information in the Comments field.  It would be advantagous to add a text search for the Comments.   This would greatly increase the usability of the filters.  For example several times in the comments it is noted that there have been sightings on or near News Years.  A text search would allow a more free form search of this extra data.
 
 
