@@ -39,15 +39,11 @@ The functionality of the UFO Project webpage is working as expected.  It looks g
 #### Drawback?
 One drawback of the design is the overall layout of the page.  Putting the filters at the left hand side of the page has will the user to have to scroll down often.  Also this limits the space for the results fields within the table.  The comments field, depending on the size of the browser page, is very limited causing a tall vertical field with alot of text wrapping.   If the Filter Search fields were put across the entire page width just above the results table, this would eliminate unnecessary scrolling and would give more room for the Comments field text.
 
-### Recommendations:
+#### Recommendations:
 For further development opportunities I would recommend the following:
 
-* Error or N/A message.  Currently when inforamtion is entered in a filter field that is not available in the data, there is no indicator of that the user has entered an invalide or unavailable entry.  There is no message saying that 'there are no results for this criteria', nor is there a 'no data found' message to reassure the user that the filter is working correctly but just didn't find any matching data.
+* <b>Error or N/A message:  Currently when inforamtion is entered in a filter field that is not available in the data, there is no indicator of that the user has entered an invalide or unavailable entry.  There is no message saying that 'there are no results for this criteria', nor is there a 'no data found' message to reassure the user that the filter is working correctly but just didn't find any matching data.
 
-* <b>Text<b> search: There is a lot of extra and interesting information in the Comments field.  It would be advantagous to add a text search for the Comments.   This would greatly increase the usability of the filters.  For example several times in the comments it is noted that there have been sightings on or near News Years.  A text search would allow a more free form search of this extra data.
-
-
+* <b>Text search: There is a lot of extra and interesting information in the Comments field.  It would be advantagous to add a text search for the Comments.   This would greatly increase the usability of the filters.  For example several times in the comments it is noted that there have been sightings on or near News Years.  A text search would allow a more free form search of this extra data.
 
 
-
-In a summary statement, describe one drawback of this new design and two recommendations for further development.
