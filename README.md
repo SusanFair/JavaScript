@@ -2,7 +2,7 @@
 
 
 ## Overview of Project  
-The JavaScript and UFOs project is designed to illustrate the use of a multi-filtered table rendering data retrieved from the provided data file.  This table will allow mutiple variables to be entered in the filter such as City, State and even the Shape of the UFO!!!  This project was also an exploration into the power of JavaScript and HTML in making a user friendly, interactive webpage.  
+The JavaScript and UFOs project is designed to illustrate the use of a multi-filtered table rendering data retrieved from the provided data file based on user input.  This table will allow mutiple variables to be entered in the filter such as City, State and even the Shape of the UFO!!!  This project was also an exploration into the power of JavaScript and HTML in making a user friendly, interactive webpage.  
 
 The UFO sightings data that was used for this project is from 2010 and reaches across the United States and Canada.
 
@@ -33,7 +33,7 @@ Alternatively, if the user wanted to understand the prevelence of a specific typ
 
 To clear the filters and start again the user can either delete their entries and click anywhere on the page or click the title "UFO Sightings" and/or the refresh button.  If only 1 filter has been set they can simply replace the field with new criteria to reset the table.
 
-##### Give this new interactive UFO Sightings webpage a try: [UFO Sightings: Fact or Fance?](https://susanfair.github.io/JavaScript_and_UFOs/)
+#### Give this new interactive UFO Sightings webpage a try: [UFO Sightings: Fact or Fance?](https://susanfair.github.io/JavaScript_and_UFOs/)
 
 ## Summary
 The functionality of the UFO Project webpage is working as expected.  It looks great! It allows interactive filtering on the UFO Sightings data through input in mutiple filter fields.
